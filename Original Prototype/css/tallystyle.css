@@ -1,0 +1,159 @@
+.iLikeThis {
+ float: right;
+}
+	 
+.numVotes{
+	text-align: right;
+	font-weight:bold;
+	font-size: 15px;
+	color: #33aa00;
+	font-style: italic;
+}
+	  
+.iLikeThis .counter a { 
+	cursor:pointer;
+ }
+
+.iLikeThis .counter a.image { 
+	 background:url(../img/vote_button2.png) center right no-repeat;
+ 	 text-align: right;
+    display:block;
+    height: 50px;
+    width: 60px;
+    vertical-align: bottom;
+    margin-top: -70px;
+ }
+
+.voteType{
+	float: left;
+	}
+	
+#selectedvote{
+	background-color : #bbffbb;
+}
+.vote-buttons{
+	cursor: pointer;
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-image: 
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+.vote-buttons:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+.vote-buttons:active {
+	position:relative;
+	top:5px;
+}
+
+.vote-button:{
+position: relative;	
+	top: 5px;
+
+	}
+
+	#popup{
+ 		position : absolute;
+		border : 1px solid #aaaaaa;
+		background-color : #bbbbbb;
+		opacity:0.9;
+		color:#333;
+ 		padding : 5px;
+		z-index: 1000;
+ 		/* set this to create word wrap */
+		max-width: 250px;
+		width: 250px;
+		font-family: Arial;
+
+		-moz-box-shadow: 0 0 3px 3px #ccc;
+		-webkit-box-shadow: 0 0 3px 3px#ccc;
+		box-shadow: 0 0 3px 3px #ccc;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	#headerWrap{
+
+	}	
+	#header{
+		font-style: bold;
+		font-size: 25px;
+		text-align: left;
+		font-family: Arial Black;
+		margin-left: 75px;
+		margin-top: -80px;
+
+	}
+	#numvotes{
+		color: #1e48b5;
+		font-size: 15px;
+		font-style: bold;
+		text-align: right;
+		font-family: Arial Black;
+		margin-top: -35px;
+	
+	}
+	.arg{
+		font-size: 10px;
+		font-color: #000000;
+		max-height: 50px;
+		height: 50px
+		margin-top: -65px;
+		margin-left: 75px;
+
+	}
+	.commentWrap{
+		margin-top: 30px;
+ 		border : 1px solid #aaaaaa;
+		background-color : #ffffff;
+		opacity:0.9;
+		-moz-box-shadow: 0 0 3px 3px #ccc;
+		-webkit-box-shadow: 0 0 3px 3px#ccc;
+		box-shadow: 0 0 3px 3px #ccc;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding: 3px;
+	}
+	.comment{
+		font-size: 10px;
+		font-color: #000000;
+		margin-left: 35px;
+
+	}
+	.commentName{
+		color: #333;
+		font-size: 11px;
+		font-style: bold;
+		font-family: Arial Black;
+		margin-top: -40px;
+		margin-left: 35px;
+	}
+	.commentDate{
+		color: #0f245a;
+		font-size: 10px;
+		font-style: bold;
+
+	}
