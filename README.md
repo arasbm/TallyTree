@@ -10,10 +10,10 @@ Below is a summery of the contents of various folders in this repository
 ### Plugin ###
 This folder contians the latest implementation of TallyTree plugin for wordpress
 
-## Mockups ##
+### Mockups ###
 As the name suggest, mockups for various proposed and implemented features live here
 
-## Original Prototype ##
+### Original Prototype ###
 this folder contains the original prototype of the TallyTree project that was developed as course project for computer supported collaborative work (CSCW) class at university of Victoria. 
 
 Authors: 
