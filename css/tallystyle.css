@@ -1,0 +1,18 @@
+.vote-button{
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/check_default.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: 2px;
+    color: rgb(100, 19, 204);
+}
+
+.vote-button:hover {
+    border: 4px;
+    background-color: rgb(0, 119, 204);
+    cursor: pointer;
+}
+
